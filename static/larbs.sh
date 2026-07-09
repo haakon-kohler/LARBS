@@ -2,12 +2,13 @@
 
 # Luke's Auto Rice Bootstrapping Script (LARBS)
 # by Luke Smith <luke@lukesmith.xyz>
+# edited by Haakon Kohler <haakon.co>
 # License: GNU GPLv3
 
 ### OPTIONS AND VARIABLES ###
 
-dotfilesrepo="https://github.com/lukesmithxyz/voidrice.git"
-progsfile="https://raw.githubusercontent.com/LukeSmithxyz/LARBS/master/static/progs.csv"
+dotfilesrepo="https://github.com/haakon-kohler/voidrice.git"
+progsfile="https://raw.githubusercontent.com/haakon-kohler/LARBS/master/static/progs.csv"
 aurhelper="yay"
 repobranch="master"
 export TERM=ansi
@@ -37,7 +38,7 @@ error() {
 
 welcomemsg() {
 	whiptail --title "Welcome!" \
-		--msgbox "Welcome to Luke's Auto-Rice Bootstrapping Script!\\n\\nThis script will automatically install a fully-featured Linux desktop, which I use as my main machine.\\n\\n-Luke" 10 60
+		--msgbox "Welcome to Haakon's Auto-Rice Bootstrapping Script!\\n\\nThis script will automatically install a fully-featured Linux desktop (copied from Larbs.xyz).\\n\\n-Luke" 10 60
 
 	whiptail --title "Important Note!" --yes-button "All ready!" \
 		--no-button "Return..." \
