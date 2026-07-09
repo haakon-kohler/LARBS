@@ -1,4 +1,4 @@
-# Haakons's Bootstrapping Scripts (Haakon's BS) (Larbs Fork)
+# Haakon's Bootstrapping Scripts (Haakon's BS) (Larbs Fork)
 
 ## Installation:
 
