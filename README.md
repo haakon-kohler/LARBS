@@ -1,11 +1,11 @@
-# Luke's Auto-Rice Bootstrapping Scripts (LARBS)
+# Haakons's Bootstrapping Scripts (Haakon's BS) (Larbs Fork)
 
 ## Installation:
 
 On an Arch-based distribution as root, run the following:
 
 ```
-curl -LO larbs.xyz/larbs.sh
+curl -LO https://raw.githubusercontent.com/haakon-kohler/LARBS/master/larbs.sh
 sh larbs.sh
 ```
 
